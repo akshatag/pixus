@@ -85,4 +85,14 @@ function parseAPIRequest($req, $patternTable){
 }
 
 
+function printQueryResults($arr){
+    foreach($arr as $row){
+        echo "\n";
+        foreach($row as $key => $val){
+            echo $key.' ==> '.$val."\n";
+        }
+    }
+}
+
+
 ?>

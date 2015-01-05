@@ -8,8 +8,8 @@ require_once(CORE_LIB.'/functions.php');
 
 $apiReq = getAPIRequest();
 
-echo $_SERVER['REQUEST_METHOD'];
-echo $apiReq;
+echo $_SERVER['REQUEST_METHOD']."\n";
+echo $apiReq."\n";
 
 $urlTable = array(
 
@@ -27,7 +27,7 @@ $urlTable = array(
 
 $handler = parseAPIRequest($apiReq, $urlTable);
 
-echo $handler[0];
+echo $handler[0]."\n";
 
 //if(!is_array($handler)){
 //    die($handler);
@@ -38,8 +38,10 @@ echo $handler[0];
 include($handler[0]);
 
 //call appropriate function with params
-$res = call_user_func_array($handler[1], $handler[3]);
+$arr = call_user_func_array($handler[1], $handler[3]);
 if(!$handler){
     echo 'no handler';
 }
-echo json_encode($res, JSON_PRETTY_PRINT);
+
+echo "\n".'results: '."\n";
+echo printQueryResults($arr);
