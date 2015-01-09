@@ -19,4 +19,4 @@ function db(){
     return $DB;
 }
 
-echo 'includes done!'."\n";
+//echo 'includes done!'."\n";

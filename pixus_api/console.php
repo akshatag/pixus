@@ -13,14 +13,12 @@ POST Fields: <input type="text" name="postfields"/><br/>
 <?php
 if(isset($_POST['submit'])){
 
-    echo'lol';
-
     $endpoint = 'http://www.akshatagrawal.me/sandbox/pixus/api/'.$_POST['url'];
     $postfields = explode('&', $_POST['postfields'] );
 
     $curl = curl_init();
     curl_setopt($curl, CURLOPT_URL, $endpoint);
-    curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($curl, CURLOPT_RETURNTRANSFER, false);
 
     if(strlen($_POST['postfields']) > 0 && count($postfields) > 0){
         curl_setopt($curl, CURLOPT_POST, true);
@@ -29,14 +27,14 @@ if(isset($_POST['submit'])){
 
     $curl_res = curl_exec($curl);
 
-    if($curl_res == false){
+    if($curl_res === false){
+        echo 'error'."\n";
         echo curl_getinfo($curl);
     }
 
     curl_close($curl);
 
-    printQueryResults($curl_res);
-
+    echo "\n".$curl_res;
 }
 
 ?>

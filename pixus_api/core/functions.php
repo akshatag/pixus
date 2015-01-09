@@ -94,5 +94,55 @@ function printQueryResults($arr){
     }
 }
 
+function checkParamsSetPOST($params){
+    foreach($params as $p){
+        if(!isset($_POST[$p])){
+            return false;
+        }
+    }
+
+    return true;
+}
+
+
+function checkUserExists($uid){
+    $stmt = db()->prepare('SELECT * FROM`'.USERS_TABLE.'` WHERE id=:uid');
+    $stmt->bindParam(':uid', $uid);
+    $stmt->execute();
+
+   return count($stmt->fetchAll(PDO::FETCH_ASSOC) == 1);
+}
+
+function checkEventExists($eid){
+    $stmt = db()->prepare('SELECT * FROM`'.EVENTS_TABLE.'` WHERE id=:eid');
+    $stmt->bindParam(':eid', $eid);
+    $stmt->execute();
+
+    return count($stmt->fetchAll(PDO::FETCH_ASSOC) == 1);
+}
+
+function checkUserInvitedToEvent($uid, $eid){
+    if(!checkUserExists($uid) || !checkEventExists($eid)){
+        return false;
+    }
+
+    $stmt = db()->prepare('SELECT event_id FROM`'.USERS_EVENTS_TABLE.'` WHERE user_id=:uid');
+    $stmt->bindParam(':uid', $uid);
+    $stmt->execute();
+
+    $arr = $stmt->fetch(PDO::FETCH_ASSOC);
+
+    foreach($arr as $a){
+        if($a == $eid){
+            return true;
+        }
+    }
+
+    return false;
+}
+
+
+
+
 
 ?>

@@ -20,6 +20,26 @@ function getPhotoWithId($id){
 }
 
 
+function uploadPhotoWithParams($id){
+
+    $params = array('user_id', 'event_id');
+
+    if(!checkParamsSetPOST($params)){
+        return false;
+    };
+
+    if(!checkUserInvitedToEvent($_POST['user_id'], $_POST['event_id'])){
+        return false;
+    }
+
+
+
+
+
+
+
+}
+
 
 
 

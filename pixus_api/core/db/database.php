@@ -15,4 +15,4 @@ $info = array(
 
 $DB = new PDO('mysql:host='.$info['host'].';dbname='.$info['database'], $info['user'], $info['password']);
 
-echo 'logged into database!'."\n";
+//echo 'logged into database!'."\n";

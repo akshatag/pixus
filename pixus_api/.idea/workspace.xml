@@ -26,21 +26,7 @@
       <file leaf-file-name="users.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/users.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="1" selection-start="653" selection-end="653" vertical-scroll-proportion="-2.5" vertical-offset="390" max-vertical-offset="1050">
-              <folding>
-                <marker date="1420401457000" expanded="true" signature="236:277" placeholder="SELECT * FRO..." />
-                <marker date="1420401457000" expanded="true" signature="472:527" placeholder="SELECT event..." />
-                <marker date="1420401457000" expanded="true" signature="890:996" placeholder="INSERT INTO ..." />
-                <marker date="1420401457000" expanded="true" signature="890:1003" placeholder="INSERT INTO ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="console.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/console.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="39" selection-start="119" selection-end="119" vertical-scroll-proportion="0.04517454" vertical-offset="53" max-vertical-offset="705">
+            <state line="91" column="0" selection-start="2142" selection-end="2142" vertical-scroll-proportion="-21.333334" vertical-offset="853" max-vertical-offset="1635">
               <folding />
             </state>
           </provider>
@@ -49,48 +35,7 @@
       <file leaf-file-name="includes.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/db/includes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="14" selection-start="338" selection-end="338" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="330">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="events.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/events.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="0" selection-start="692" selection-end="692" vertical-scroll-proportion="-15.916667" vertical-offset="128" max-vertical-offset="705">
-              <folding>
-                <marker date="1420399560000" expanded="true" signature="238:280" placeholder="SELECT * FRO..." />
-                <marker date="1420399560000" expanded="true" signature="476:532" placeholder="SELECT photo..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="photos.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/photos.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="407" selection-end="407" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="495">
-              <folding>
-                <marker date="1420399560000" expanded="true" signature="238:280" placeholder="SELECT * FRO..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/db/database.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="10" selection-start="351" selection-end="351" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="270">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="functions.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/functions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="9" selection-start="2047" selection-end="2047" vertical-scroll-proportion="-3.4166667" vertical-offset="1058" max-vertical-offset="1545">
+            <state line="21" column="2" selection-start="376" selection-end="376" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="330">
               <folding />
             </state>
           </provider>
@@ -99,8 +44,39 @@
       <file leaf-file-name="api.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="26" selection-start="164" selection-end="164" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="795">
+            <state line="22" column="0" selection-start="698" selection-end="698" vertical-scroll-proportion="-8.208333" vertical-offset="133" max-vertical-offset="885">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="events.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/events.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="0" selection-start="882" selection-end="882" vertical-scroll-proportion="-13.208333" vertical-offset="313" max-vertical-offset="1140">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="photos.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/photos.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="0" selection-start="672" selection-end="672" vertical-scroll-proportion="0.85771275" vertical-offset="0" max-vertical-offset="795">
+              <folding>
+                <marker date="1420833290000" expanded="true" signature="238:280" placeholder="SELECT * FRO..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="146" column="0" selection-start="3323" selection-end="3323" vertical-scroll-proportion="-28.833334" vertical-offset="1498" max-vertical-offset="2295">
+              <folding>
+                <marker date="1420833180000" expanded="true" signature="3317:3325" placeholder="SELECT event..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,14 +92,14 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/core/db/database.php" />
-        <option value="$PROJECT_DIR$/api.php" />
-        <option value="$PROJECT_DIR$/core/functions.php" />
         <option value="$PROJECT_DIR$/core/db/includes.php" />
-        <option value="$PROJECT_DIR$/api/photos.php" />
+        <option value="$PROJECT_DIR$/core/db/database.php" />
+        <option value="$PROJECT_DIR$/console.php" />
+        <option value="$PROJECT_DIR$/api.php" />
         <option value="$PROJECT_DIR$/api/events.php" />
         <option value="$PROJECT_DIR$/api/users.php" />
-        <option value="$PROJECT_DIR$/console.php" />
+        <option value="$PROJECT_DIR$/core/functions.php" />
+        <option value="$PROJECT_DIR$/api/photos.php" />
       </list>
     </option>
   </component>
@@ -187,6 +163,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pixus_api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pixus_api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pixus_api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pixus_api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -197,11 +205,14 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.lastSelected" value="reference.settings.deploy.options" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="SearchEverywhereHistory" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../spotmeet" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -219,7 +230,7 @@
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="0cd08212-832a-4b0d-be68-301f2f43d7ff" server_name="pixus">
       <method />
     </configuration>
     <list size="0" />
@@ -252,11 +263,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329602" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329602" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329602" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -265,15 +277,14 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1388889" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1388889" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -293,90 +304,138 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.ftpquota">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="776">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="11" selection-start="178" selection-end="178" vertical-scroll-proportion="0.14677104" vertical-offset="0" max-vertical-offset="511">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/access_guard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="776">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/db/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="10" selection-start="351" selection-end="351" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/photos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="407" selection-end="407" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="495">
-          <folding>
-            <marker date="1420399560000" expanded="true" signature="238:280" placeholder="SELECT * FRO..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/events.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="692" selection-end="692" vertical-scroll-proportion="-15.916667" vertical-offset="128" max-vertical-offset="705">
-          <folding>
-            <marker date="1420399560000" expanded="true" signature="238:280" placeholder="SELECT * FRO..." />
-            <marker date="1420399560000" expanded="true" signature="476:532" placeholder="SELECT photo..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/db/includes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="14" selection-start="338" selection-end="338" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="330">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/users.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="1" selection-start="653" selection-end="653" vertical-scroll-proportion="-2.5" vertical-offset="390" max-vertical-offset="1050">
-          <folding>
-            <marker date="1420401457000" expanded="true" signature="236:277" placeholder="SELECT * FRO..." />
-            <marker date="1420401457000" expanded="true" signature="472:527" placeholder="SELECT event..." />
-            <marker date="1420401457000" expanded="true" signature="890:996" placeholder="INSERT INTO ..." />
-            <marker date="1420401457000" expanded="true" signature="890:1003" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="26" selection-start="164" selection-end="164" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="795">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="9" selection-start="2047" selection-end="2047" vertical-scroll-proportion="-3.4166667" vertical-offset="1058" max-vertical-offset="1545">
+        <state line="30" column="1" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/console.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="39" selection-start="119" selection-end="119" vertical-scroll-proportion="0.04517454" vertical-offset="53" max-vertical-offset="705">
+        <state line="5" column="39" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/db/includes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="14" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/events.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="705">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/photos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="495">
+          <folding>
+            <marker date="1420833290000" expanded="true" signature="238:280" placeholder="SELECT * FRO..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/db/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="10" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="9" selection-start="2047" selection-end="2047" vertical-scroll-proportion="0.0" vertical-offset="1058" max-vertical-offset="1545">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="26" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="795">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.ftpquota">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="776" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/access_guard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="776" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="11" selection-start="178" selection-end="178" vertical-scroll-proportion="0.09664948" vertical-offset="0" max-vertical-offset="776">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/db/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="2" selection-start="343" selection-end="343" vertical-scroll-proportion="0.2393617" vertical-offset="0" max-vertical-offset="752">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="846" selection-end="846" vertical-scroll-proportion="0.55851066" vertical-offset="0" max-vertical-offset="752">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/events.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="882" selection-end="882" vertical-scroll-proportion="-13.208333" vertical-offset="313" max-vertical-offset="1140">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="0" selection-start="2142" selection-end="2142" vertical-scroll-proportion="-21.333334" vertical-offset="853" max-vertical-offset="1635">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="698" selection-end="698" vertical-scroll-proportion="-8.208333" vertical-offset="133" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="146" column="0" selection-start="3323" selection-end="3323" vertical-scroll-proportion="-28.833334" vertical-offset="1498" max-vertical-offset="2295">
+          <folding>
+            <marker date="1420833180000" expanded="true" signature="3317:3325" placeholder="SELECT event..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/db/includes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="2" selection-start="376" selection-end="376" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/photos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="0" selection-start="672" selection-end="672" vertical-scroll-proportion="0.85771275" vertical-offset="0" max-vertical-offset="795">
+          <folding>
+            <marker date="1420833290000" expanded="true" signature="238:280" placeholder="SELECT * FRO..." />
+          </folding>
         </state>
       </provider>
     </entry>
