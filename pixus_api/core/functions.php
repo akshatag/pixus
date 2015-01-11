@@ -123,17 +123,19 @@ function checkEventExists($eid){
 
 function checkUserInvitedToEvent($uid, $eid){
     if(!checkUserExists($uid) || !checkEventExists($eid)){
+        echo 'user or event does not exist';
         return false;
     }
 
-    $stmt = db()->prepare('SELECT event_id FROM`'.USERS_EVENTS_TABLE.'` WHERE user_id=:uid');
+    $stmt = db()->prepare('SELECT event_id FROM `'.USERS_EVENTS_TABLE.'` WHERE user_id=:uid');
     $stmt->bindParam(':uid', $uid);
     $stmt->execute();
 
-    $arr = $stmt->fetch(PDO::FETCH_ASSOC);
+    $arr = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
     foreach($arr as $a){
-        if($a == $eid){
+        echo $a['event_id']."\n";
+        if($a['event_id'] == $eid){
             return true;
         }
     }

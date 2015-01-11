@@ -61,6 +61,9 @@ function newEventWithParams(){
         var_dump($stmt->errorInfo());
     }
 
+    $id = db()->lastInsertId();
+    mkdir(MEDIA_LIB.'/'.$id);
+
     return $res;
 }
 

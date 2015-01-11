@@ -68,6 +68,41 @@ function newUserWithParams(){
     return $res;
 }
 
+function inviteUserWithIdToEventWithId($uid, $eid){
+    echo 'inviting user with id '.$uid.' to event with id '.$eid;
+
+    $stmt = db()->prepare('SELECT * FROM `'.USERS_EVENTS_TABLE.'` WHERE event_id=:eid AND user_id=:uid');
+
+    $stmt->bindParam(':uid', $uid);
+    $stmt->bindParam(':eid', $eid);
+
+    $res = $stmt->execute();
+
+    if(!res){
+        var_dump($stmt->errorInfo());
+    }
+
+    if(count($stmt->fetchAll(PDO::FETCH_ASSOC)) != 0){
+        return false;
+    }
+
+    $sts = 0;
+
+    $stmt = db()->prepare('INSERT INTO `'.USERS_EVENTS_TABLE.'` (user_id, event_id, status) VALUES(:uid, :eid, :sts)');
+
+    $stmt->bindParam(':uid', $uid);
+    $stmt->bindParam(':eid', $eid);
+    $stmt->bindParam(':sts', $sts);
+
+    $res = $stmt->execute();
+
+    if(!res){
+        var_dump($stmt->errorInfo());
+    }
+
+    return $res;
+}
+
 
 function updateStatusForEventWithId($uid, $eid){
 

@@ -19,15 +19,15 @@ $urlTable = array(
     '/users/new' => array(API_LIB.'/users.php', 'newUserWithParams', 'POST'),
     '/users/$/photos' => array(API_LIB.'/users.php', 'getPhotosForUserWithId', 'GET'),
     '/users/$/events' => array(API_LIB.'/users.php', 'getEventsForUserWithId', 'GET'),
+    '/users/$/events/$/invite' => array(API_LIB.'/users.php', 'inviteUserWithIdToEventWithId', 'POST'),
     '/users/$/events/$/status' => array(API_LIB.'/users.php', 'updateStatusForEventWithId', 'POST'),
+    '/users/$/events/$/upload' => array(API_LIB.'/photos.php', 'uploadPhotoWithParams', 'POST'),
 
     '/events/$' => array(API_LIB.'/events.php', 'getEventWithId', 'GET'),
     '/events/new' => array(API_LIB.'/events.php', 'newEventWithParams', 'POST'),
     '/events/$/photos' => array(API_LIB.'/events.php', 'getPhotosForEventWithId', 'GET'),
 
     '/photos/$' => array(API_LIB.'/photos.php', 'getPhotoWithId', 'GET'),
-    '/photos/new' => array(API_LIB.'/photos.php', 'newPhotoWithParams', 'POST')
-
 
 );
 

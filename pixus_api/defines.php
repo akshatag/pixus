@@ -3,6 +3,7 @@
 
 define('CORE_LIB', 'core');
 define('API_LIB', 'api');
+define('MEDIA_LIB', 'media');
 
 
 define('API_REQ_FAIL_INVAL_URL', -1);
