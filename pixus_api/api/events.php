@@ -33,7 +33,7 @@ function getPhotosForEventWithId($id){
 
 function newEventWithParams(){
 
-    $params = array('name', 'date_time_open', 'date_time_close', 'win_ovrd');
+    $params = array('name', 'date_time_open', 'date_time_close', 'win_ovrd', 'longitude', 'latitude');
     if(!checkParamsSetPOST($params)){
         return false;
     }
@@ -49,11 +49,13 @@ function newEventWithParams(){
         return false;
     }
 
-    $stmt = db()->prepare('INSERT INTO `'.EVENTS_TABLE.'`(name, win_open, win_close, win_ovrd) VALUES (:nm, :wo, :wc, :wov)');
+    $stmt = db()->prepare('INSERT INTO `'.EVENTS_TABLE.'`(name, win_open, win_close, win_ovrd, longitude, latitude) VALUES (:nm, :wo, :wc, :wov, :lg, :lt)');
     $stmt->bindParam(':nm', $_POST['name']);
     $stmt->bindParam(':wo', $_POST['date_time_open']);
     $stmt->bindParam(':wc', $_POST['date_time_close']);
     $stmt->bindParam(':wov', $_POST['win_ovrd']);
+    $stmt->bindParam(':lg', $_POST['longitude']);
+    $stmt->bindParam(':lt', $_POST['latitude']);
 
     $res = $stmt->execute();
 
