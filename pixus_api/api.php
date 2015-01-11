@@ -17,6 +17,7 @@ $urlTable = array(
 
     '/users/$' => array(API_LIB.'/users.php', 'getUserWithId', 'GET'),
     '/users/new' => array(API_LIB.'/users.php', 'newUserWithParams', 'POST'),
+    '/users/login' => array(API_LIB.'/users.php', 'getUserWithLogin', 'POST'),
     '/users/$/photos' => array(API_LIB.'/users.php', 'getPhotosForUserWithId', 'GET'),
     '/users/$/events' => array(API_LIB.'/users.php', 'getEventsForUserWithId', 'GET'),
     '/users/$/events/$/invite' => array(API_LIB.'/users.php', 'inviteUserWithIdToEventWithId', 'POST'),

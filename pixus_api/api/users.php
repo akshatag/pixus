@@ -129,6 +129,45 @@ function updateStatusForEventWithId($uid, $eid){
 }
 
 
+function getUserWithLogin(){
+
+    echo 'searching for user based on POST login credentials'."\n";
+
+    $params = array('username', 'password');
+    if(!checkParamsSetPOST($params)){
+        echo 'unset params';
+        return false;
+    }
+
+
+    $stmt = db()->prepare('SELECT * FROM `'.USERS_TABLE.'` WHERE username=:un');
+    $stmt->bindParam(':un', $_POST['username']);
+    $res = $stmt->execute();
+
+    if(!$res){
+        var_dump($stmt->errorInfo());
+    }
+
+    $arr = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+    if(count($arr) != 1){
+        echo 'no such user';
+        return false;
+    }
+
+    $user = $arr[0];
+
+    if(hash('md5', $_POST['password'].$user['cinnamon']) == $user['password']){
+        echo 'we made it';
+        return $arr;
+    }
+    else{
+        echo 'invalid credentials';
+        return false;
+    }
+
+}
+
 
 
 
